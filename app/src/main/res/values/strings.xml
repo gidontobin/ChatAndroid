@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ChatApp4</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="sigh_in">Sigh in</string>
+    <string name="not_registered">Not Registered?</string>
+    <string name="name">Name</string>
+    <string name="write_a_message">Write a message</string>
+    <string name="placeholder_message">Placeholder message</string>
+    <string name="sigh_up">Sigh UP</string>
+    <string name="nickname">NickName</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="allready_registerd">Allready Registerd?</string>
+</resources>
