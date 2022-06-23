@@ -8,13 +8,15 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import java.util.ArrayList;
+
 public class CustomList extends ArrayAdapter<String>{
 
     private final Activity context;
-    private final String[] web;
-    private final Integer[] imageId;
+    private final ArrayList<String> web;
+    private final ArrayList<Integer> imageId;
     public CustomList(Activity context,
-                      String[] web, Integer[] imageId) {
+                      ArrayList<String> web, ArrayList<Integer> imageId) {
         super(context, R.layout.list_single, web);
         this.context = context;
         this.web = web;
@@ -30,10 +32,10 @@ public class CustomList extends ArrayAdapter<String>{
         TextView txtTime = (TextView) rowView.findViewById(R.id.contact_time);
 
         ImageView imageView = (ImageView) rowView.findViewById(R.id.img);
-        txtName.setText(web[position]);
-        txtLastM.setText("Last Message");
-        txtTime.setText("Last Time");
-        imageView.setImageResource(imageId[position]);
+        txtName.setText(web.get(position));
+        txtLastM.setText("How Are You?");
+        txtTime.setText("2:05:52");
+        imageView.setImageResource(imageId.get(position));
         return rowView;
     }
 }

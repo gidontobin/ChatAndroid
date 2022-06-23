@@ -12,4 +12,8 @@
     <string name="nickname">NickName</string>
     <string name="confirm_password">Confirm Password</string>
     <string name="allready_registerd">Allready Registerd?</string>
+    <string name="add_new_person">add new person</string>
+    <string name="new_contact">New Contact</string>
+    <string name="server">Server</string>
+    <string name="add">Add</string>
 </resources>

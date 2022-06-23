@@ -17,6 +17,15 @@
         android:textAlignment="center"
 
         />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/ic_baseline_person_add_alt_1_24"
+        android:contentDescription="@string/add_new_person"
+        android:layout_margin="16dp" />
 
 
 </RelativeLayout>
